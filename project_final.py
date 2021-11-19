@@ -1,36 +1,3 @@
-# plt.figure(figsize=(15,5))
-# plt.plot(mainDF['Open'].values, color = 'red', label = 'open')
-# plt.plot(mainDF['High'].values, color = 'black', label = 'high')
-# plt.plot(mainDF['Low'].values, color = 'blue', label = 'low')
-# plt.plot(mainDF['Close'].values, color = 'green', label = 'close')
-# plt.title('Stock price')
-# plt.xlabel('time (days)')
-# plt.ylabel('price')
-# plt.legend(loc='best')
-# plt.show()
-# print('x_train.shape = ',x_train.shape)
-# print('y_train.shape = ', y_train.shape)
-# print('x_valid.shape = ',x_valid.shape)
-# print('y_valid.shape = ', y_valid.shape)
-# print('x_test.shape = ', x_test.shape)
-# print('y_test.shape = ',y_test.shape)
-
-# plt.figure(figsize=(15,5))
-# plt.plot(normalizedDF['Open'].values, color = 'red', label = 'open')
-# plt.plot(normalizedDF['High'].values, color = 'black', label = 'high')
-# plt.plot(normalizedDF['Low'].values, color = 'blue', label = 'low')
-# plt.plot(normalizedDF['Close'].values, color = 'green', label = 'close')
-# plt.title('Stock price')
-# plt.xlabel('time (days)')
-# plt.ylabel('normalized price')
-# plt.legend(loc='best')
-# plt.show()
-#
-# close = pd.Series(data=df['Close'].values, index=df['Date'])
-# close.plot(figsize=(16,4), label="close Prices", legend=False)
-# plt.show()
-
-
 import numpy as np
 import pandas as pd
 import math
