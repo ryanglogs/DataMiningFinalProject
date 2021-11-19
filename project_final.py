@@ -96,17 +96,6 @@ normalizedDF = normalize_data(normalizedDF)
 seq_len = 20
 x_train, y_train, x_valid, y_valid, x_test, y_test = create_sets(normalizedDF, seq_len)
 
-# plt.figure(figsize=(15,5))
-# plt.plot(normalizedDF['Open'].values, color = 'red', label = 'open')
-# plt.plot(normalizedDF['High'].values, color = 'black', label = 'high')
-# plt.plot(normalizedDF['Low'].values, color = 'blue', label = 'low')
-# plt.plot(normalizedDF['Close'].values, color = 'green', label = 'close')
-# plt.title('Stock price')
-# plt.xlabel('time (days)')
-# plt.ylabel('normalized price')
-# plt.legend(loc='best')
-# plt.show()
-
 #print('x_train.shape[0] = ', x_train.shape[0])
 #print(x_train[0])
 
